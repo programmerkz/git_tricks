@@ -1,9 +1,9 @@
 from grpc import Grpc
 
-class Conainer:
+class Container:
     def __init__(self):
         self.info = "container"
-        self.grpc = Grpc()
+        self.grpc = Grpc(5051)
 
 
 if __name__ == '__main__':
